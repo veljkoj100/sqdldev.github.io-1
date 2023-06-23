@@ -1,6 +1,6 @@
 :root {
-	--tileWidth: 48px;
-    --tileset01: url("tileset/tileset01.png");
+	--tileWidth: 40px;
+    --tileset01: url("tileset/tileMap1600.png");
 	--tileset02: url("level-editor/tileset_custom/tileset02.png");
 	--tileset03: url("level-editor/tileset_custom/tileset03.png");
 	--tileset04: url("level-editor/tileset_custom/tileset04.png");
