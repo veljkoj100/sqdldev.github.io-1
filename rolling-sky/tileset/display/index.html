@@ -107,7 +107,6 @@ body:hover #openLookup {
 <body>
 <span style="position: absolute; opacity: 0; pointer-events: none; touch-action: none;">Loading</span>
 <c-tile id="display" class="0"></c-tile>
-<span style="position: fixed;left: 0;top: 0;background: black;">Tile Display is temporarily down. Sorry.</span>
 <a id="openLookup" target="_blank">
 <img src="newWindow.svg">
 <span>Tile Lookup</span>
@@ -168,7 +167,7 @@ function toPixelPos(number) {
 	return { x: pixelPositionX, y: pixelPositionY };
 }
 function getTileURL(number) {
-	const imageUrl = "https://wsrv.nl/?url=https://sqdldev.github.io/rolling-sky/tileset/tileset01.png";
+	const imageUrl = "https://wsrv.nl/?url=https://sqdldev.github.io/rolling-sky/tileset/tileMap1600.png";
 
 	const { x, y } = toPixelPos(number);
 
